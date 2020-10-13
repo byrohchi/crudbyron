@@ -1,0 +1,7 @@
+<h1>{{employee.id}} . {{employee.employee_name}}</h1>
+<div>
+    Nombre : <input ng-model="employee_name" placeholder="{{employee.employee_name}}" /><br/><br/>
+    Edad : <input ng-model="employee_age" placeholder="{{employee.employee_age}}"/><br/><br/>
+    Salario : <input ng-model="employee_salary" placeholder="{{employee.employee_salary}}"/><br/><br/> 
+<input type="button" value="Guardar" ng-click="putdata(employee_name, employee_age, employee_salary, idc)" />
+</div>

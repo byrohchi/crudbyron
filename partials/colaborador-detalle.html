@@ -1,0 +1,26 @@
+<div>
+    <table >
+        <td>index</td>
+        <td>id</td>
+        <td>Nombre del Colaborador</td>
+        <td>Salario</td>
+        <td>Edad</td>
+        <tr ng-repeat="employee in employees">
+            <td>{{($index+1)}}</td>
+            <td>{{ employee.id }}</td>
+            <td>{{ employee.employee_name }} </td>
+            <td>{{ employee.employee_salary }}</td>
+            <td>{{ employee.employee_age }}</td>
+            <td>
+                <a href="#/colaborador/{{employee.id}}">Ver detalle </a> <br>
+                <a href="#/actualizar/{{employee.id}}">Actualizar</a> <br>
+                <a href="#/eliminar/{{employee.id}}">Eliminar</a>
+            </td>
+            <td>
+                <input type="button" value="Eliminar Directamente" ng-click="borrarPorId(employee.id,$index)" />
+                <input type="button" value="Actualizar Directamente" ng-click="Actualizacion(employee.id,$index)" />
+            </td>
+        </tr>
+    </table>
+</div>
+    

@@ -1,0 +1,82 @@
+  body {
+    padding-top: 50px;
+    color: #0fb1d9;
+  }
+
+  boton-falso{
+    background-color: #0fb1d9;
+    color:red;
+    font-size: large;
+  }
+
+  .navbar{
+    border-color: #0fb1d9;
+    background-color: #0fb1d9;
+    color: #0fb1d9;
+  }
+  .navbar-brand {
+    font-weight: 800;
+    background-color: #0fb1d9;
+    border-color: #0fb1d9;
+  }
+  
+  .navbar-brand img {
+    width: 70px;
+    color: #0fb1d9;
+  }
+  
+  .nav-tabs {
+    margin-bottom: 10px;
+    color: #0fb1d9;
+  }
+  
+  .form-group {
+    padding: 10px;
+  }
+  
+  .ng-invalid.ng-dirty {
+    border-color: #0fb1d9;
+  }
+  
+  .ng-valid.ng-dirty {
+    border-color: #468847;
+  }
+  
+  .colaborador {
+    height: 350px;
+  }
+  
+  .colaborador h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .colaborador h1 > small {
+    color: #ccc;
+  }
+  
+  .colaborador img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 200px;
+    max-height: 220px;
+  }
+  
+  .colaborador .panel-body {
+    position: relative;
+    height: 250px;
+    border-color: #0fb1d9;
+    background-color: #0fb1d9;
+  }
+
+  .panel-heading {
+    border-color: #0fb1d9;
+    background-color: #0fb1d9;
+  }
+  
+  

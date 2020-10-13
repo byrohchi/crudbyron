@@ -1,0 +1,24 @@
+<div>
+  <div class="page-header">
+    <h1>Colaboradores <small class="pull-right" href="#/nuevo"> Listado Colaboradores</small></h1>
+  </div>
+  <div>
+    <colaborador-detalle></colaborador-detalle>
+  </div>
+  <a class="boton-falso" href="#/nuevo">nuevo</a>
+  <h1>Nuevo Colaborador</h1>
+  <div>
+    Nombre : <input ng-model="employee_name" /><br/><br/>
+    Edad : <input ng-model="employee_age" /><br/><br/>
+    Salario : <input ng-model="employee_salary" /><br/><br/>
+    <input type="button" value="Agregar Nuevo" ng-click="postdataInicial(employee_name, employee_age, employee_salary)" />
+  </div>
+  <h1>Actualizar Colaborador</h1>
+  <h1>ID {{idActualizar}}</h1>
+  <div>
+    Nombre : <input ng-model="employee_nameActualizar" /><br/><br/>
+    Edad : <input ng-model="employee_ageActualizar" /><br/><br/>
+    Salario : <input ng-model="employee_salaryActualizar" /><br/><br/>
+    <input type="button" value="Actualizar Existente" ng-click="putdataInicial(employee_nameActualizar, employee_ageActualizar, employee_salaryActualizar, idActualizar)" />
+  </div>
+</div>
